@@ -1,4 +1,4 @@
-# 云开诗词新标签页 based on React
+# 云开诗词新标签页 based on React（Legacy）
 ## 注意
 * 本项目将不再得到维护，请前往云开诗词新标签页
 

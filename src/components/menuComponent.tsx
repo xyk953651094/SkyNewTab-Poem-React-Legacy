@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Button, Drawer, Space, Tooltip} from "antd";
+import {Alert, Button, Drawer, Space, Tooltip} from "antd";
 import {MenuOutlined} from "@ant-design/icons";
 import {getFontColor} from "../typescripts/publicFunctions";
 import {device} from "../typescripts/publicConstants";
@@ -90,6 +90,7 @@ function MenuComponent(props: any) {
                         minorColor={props.minorColor}
                         preferenceData={props.preferenceData}
                     />
+                    <Alert message="此插件后续不再更新，请前往插件商店搜索 云开诗词新标签页" type="info" />
                     <MenuToTopComponent
                         majorColor={props.majorColor}
                         minorColor={props.minorColor}
